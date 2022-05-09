@@ -114,11 +114,11 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   end_tft_write();
-  delay(120);
+  delay(10);
   begin_tft_write();
 
   writecommand(ST7789_DISPON);    //Display on
-  delay(120);
+  delay(10);
 
 #ifdef TFT_BL
   // Turn on the back-light LED
